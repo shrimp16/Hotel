@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css" class="css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Header-->
+    
+    <header>
+        <div>
+            <h2>Hotel Name</h2>
+        </div>
+        <div>
+            <p>The best hotel</p>
+        </div>
+    </header>
+
+    <!--Header-->
+    <!--Main Page-->
+
+    <div id="mainpage">
+        <div>
+            <div class="title">
+                <h4>About us</h4>
+            </div>
+            <div class="center-text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iste vitae ipsum doloribus voluptate
+                    mollitia tempore eligendi, provident dolores autem modi amet dolore cum nam dolorum hic consequuntur
+                    excepturi sunt. Vel commodi modi cum inventore quod tenetur blanditiis. Ipsum incidunt esse
+                    eligendi, nesciunt suscipit ducimus deleniti. Soluta fuga modi corporis!</p>
+            </div>
+        </div>
+
+        <div class="title">
+            <h4>Some of our best rooms</h4>
+        </div>
+
+        <div id="toprooms"></div>
+
+        <div class="center">
+            <button id="know-more" class="know-more-button">Browse more rooms!</button>
+        </div>
+
+    </div>
+
+    <!--Main Page-->
+    <!--Search Room Page-->
+
+    <div class="roomsearch" id="roomsearchpage" style="display: none">
+
+        <div>
+            <div>
+                <button class="formsubmit" id="formsubmit">Select Room Type</button>
+                <button id="gotomainpage" class="formsubmit">Main Page</button>
+            </div>
+
+            <div>
+                <form class="center form">
+                    <select class="test" name="roomtype" id="roomstype">
+                        <option value="all">All</option>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="triple">Triple</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div>
+
+        <div id="searchbody"></div>
+
+        <div id="extraspace"><br><br></div>
+
+    </div>
+
+    <!--Search Room Page-->
+    <!--Footer-->
+
+    <footer>
+        <h3>Contact us here:</h3>
+        <ul class="contacts">
+            <li>e-mail: example@example.com</li>
+            <li>phone: 295 987 654</li>
+        </ul>
+    </footer>
+
+    <!--Footer-->
+    <!--Script-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
