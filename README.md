@@ -15,7 +15,7 @@ focusing mainly on improving with HTML, CSS and JavaScript.
         - Rating ⬜
         - Price ⬜
         - Popularity ⬜
-- Make the web page consume the API :white_large_square
+- Make the web page consume the API :white_large_square:
 - Develop a mini page for the Hotel Staff to:
     - Add new rooms ⬜
     - Remove rooms ⬜
